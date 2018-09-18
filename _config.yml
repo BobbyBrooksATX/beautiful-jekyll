@@ -19,6 +19,8 @@ title: Mindset ATX
 # Short description of your site
 description: A Marketing Services Company.
 
+paginate_path: "/blog/page:num/"
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
