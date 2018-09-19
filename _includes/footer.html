@@ -14,9 +14,9 @@
             {%- else -%}
               <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
             {%- endif -%}
-                <span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                <span class="fa-stack fa-2x" aria-hidden="true">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab {{ element.icon }} fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">{{ element.name }}</span>
               </a>
@@ -40,10 +40,8 @@
         {% endif %}
       {% endif%}
       </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
+          
     <p class="theme-by text-muted">
-      Theme by
-      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
     </p>
       </div>
     </div>
